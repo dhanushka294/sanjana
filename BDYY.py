@@ -1,7 +1,4 @@
-
-
 import streamlit as st
-import pyttsx3 as pt
 st.title("HAPPYYYY BIRTHDAYYY SANJUUUUUUU😘😘....")
 st.image("sanjana.jpeg")
 st.text("I am very lucky to have you in my life🥹\nWe have many memories..and I am very sorryyy if any mistake was done by me🙂\nBut I never want to lose you at any cost...No matter what happens I'll always there for you🩵\nI am very sad that i am not celebrating your bdy like how you did to me,sorryyyy.....🥲for that\nBut I alwaaysss love you even though you stop loving me👀...\nI wish you also love as i love you🤌🏻,wait...not wish its an  order😝\nInka chalaa.. cheppalani undhi but you know about my memory power kadha😁,..so gurthochinappudu cheptha le...\nLOTS OF LOVEEE🫂💕\n\n                                                                                                                                                                          ~Dhanu")
@@ -13,12 +10,7 @@ with c2:
     st.image("brown_green.jpeg")
 with c3:
     st.image("pink.jpeg")
-engine=pt.init()
-if st.button("Click me for surprise🎁"):
-    st.balloons()
-    engine.say("Happy Birthday Sanjana,Have a great day")
-    engine.runAndWait()
-    col1, col2, col3 = st.columns([1,2,1])
 
-    with col2:
-        st.video("video.mp4")
+if st.button("Click me for Surprise🎁"):
+    st.balloons()
+    st.image("comedy.jpeg")
